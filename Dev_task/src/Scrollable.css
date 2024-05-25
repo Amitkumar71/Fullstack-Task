@@ -1,0 +1,148 @@
+.main {
+    overflow-y: scroll;
+    height: 100vh;
+    scrollbar-width: none;
+    margin-top: 10%;
+  }
+  
+  .app,
+  .last-app {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .app,
+    .last-app {
+      flex-direction: row;
+    }
+  }
+  
+  .last-app {
+    margin-bottom: 12%;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    z-index: 2;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      width: 40%;
+    }
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    padding: 20px;
+  }
+  
+  .text h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .text h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  .text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .text p {
+      font-size: 1.25rem;
+    }
+  }
+  
+  .s-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .s-controls {
+      width: 40%;
+      margin-top: 0;
+    }
+  }
+  
+  .control-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .background {
+    background-color: red;
+    height: 50vh;
+    width: 80%;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .background {
+      height: 75vh;
+      width: 42%;
+      left: auto;
+      right: 10%;
+      transform: none;
+    }
+  }
+  
+  .s-tag {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    font-weight: 600;
+    color: orange;
+    margin-top: 10%;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .s-title {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .s-title {
+      font-size: 3.5rem;
+    }
+  }
