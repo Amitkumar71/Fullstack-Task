@@ -103,7 +103,7 @@
   }
   
   .background {
-    background-color: red;
+    background:url("../public/SonomaWallpaperDark.jpg") no-repeat center center/cover;
     height: 50vh;
     width: 80%;
     border-radius: 20px;
