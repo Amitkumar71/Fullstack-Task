@@ -1,6 +1,6 @@
 import React from 'react';
 import './theme.css';
-import { IoPauseSharp } from "react-icons/io5";
+// import { IoPauseSharp } from "react-icons/io5";
 import { IoMdSkipBackward, IoMdSkipForward } from "react-icons/io";
 
 
@@ -36,12 +36,12 @@ const SleeveComponent = () => {
                             <p>Bunny Is a Rider</p>
                             <p>Desire, I Want to Turn Into You
                                 Caroline Polachek</p>
-                            <div className='controls'><IoMdSkipBackward /><IoPauseSharp /><IoMdSkipForward /></div>
+                            <div className='controls'><IoMdSkipBackward /><IoMdSkipForward /></div>
                         </div>
                     </div>
                     <div className="item3">
                         <img src="ArtChelseaCutler.jpg" width="150px" height="100px" alt="Image 3" />
-                        <div className='controls'><IoMdSkipBackward /><IoPauseSharp /><IoMdSkipForward /></div>
+                        <div className='controls'><IoMdSkipBackward /><IoMdSkipForward /></div>
                         <p>Are You Listening
                             How To Be Human
                             Chelsea Cutler
